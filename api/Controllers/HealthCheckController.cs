@@ -2,7 +2,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace JPMC.Api.Controllers;
+namespace api.Controllers;
 
 [ApiController]
 [Route("/")]
