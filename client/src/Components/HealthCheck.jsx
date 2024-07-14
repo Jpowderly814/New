@@ -10,8 +10,6 @@ import axios from 'axios';
 // import { appSettings } from '../../appSettings';
 
 const HealthCheck = () => {
-
-
     const fetchData = async () => {
       try {
         const data = await axios.get(
