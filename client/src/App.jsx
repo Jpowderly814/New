@@ -1,4 +1,5 @@
 import './App.scss';
+
 import Header from './Components/Header';
 import HealthCheck from './Components/HealthCheck';
 import { Box } from '@mui/material';

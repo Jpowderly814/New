@@ -2,8 +2,13 @@ import { createTheme } from '@mui/material';
 
 const gutter = '1em';
 
-const black = '#000';
-const midnightBlue = 'rgb(38,47,56)';
+const black = '#000'
+const white = '#FFFF'
+const grey = '#818d92';
+const feldgrau = '#586A6A';
+const khaki = '#B9A394';
+// $silver: #D4C5C7;
+const lavendar = '#DAD4EF';
 
 const paperFadeColor1 = 'rgba(60, 60, 60, .9)';
 const paperFadeColor2 = 'rgba(60, 60, 60, .7)';
@@ -16,19 +21,20 @@ const theme = createTheme({
     MuiCssBaseline: {
       styleOverrides: {
         header: {
-          background: `linear-gradient(${black}, ${midnightBlue})`,
+          background: `linear-gradient(${lavendar}, ${white})`,
           borderBottom: `ridge 1px ${black}`,
+          color: `${black}`
         },
         main: {
           padding: `${gutter}`,
         },
         nav: {
-          background: `linear-gradient(${midnightBlue}, ${black})`,
+          background: `linear-gradient(${feldgrau}, ${white})`,
           padding: `${gutter}`,
           borderRight: `ridge 1px ${black}`,
         },
         footer: {
-          background: `linear-gradient(to left, ${midnightBlue}, ${black})`,
+          background: `linear-gradient(to left, ${feldgrau}, ${white})`,
           textAlign: 'right',
           padding: `0 ${gutter}`,
           borderTop: `ridge 1px ${black}`,
