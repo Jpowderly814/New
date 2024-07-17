@@ -1,4 +1,6 @@
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
+
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
@@ -13,7 +15,9 @@ root.render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
       <CssBaseline/>
-      <App/>
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
     </ThemeProvider>
    
   </React.StrictMode>

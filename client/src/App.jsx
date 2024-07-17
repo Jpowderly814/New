@@ -1,4 +1,5 @@
 import './App.scss';
+import Router from './Components/Layout/Router';
 
 import Header from './Components/Layout/Header';
 import HealthCheck from './Components/HealthCheck';
@@ -15,7 +16,7 @@ function App() {
 
     <Box component="main">
       <Box className="mainContext">
-        {/* <Router /> */}
+        <Router />
       </Box>
     </Box>
     {/* <Footer /> */}
