@@ -12,7 +12,6 @@ function App() {
     <>
     <Header/>
     <Nav/>
-    {/* <HealthCheck/> */}
 
     <Box component="main">
       <Box className="mainContext">

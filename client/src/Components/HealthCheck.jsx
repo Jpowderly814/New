@@ -1,13 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-// import {
-//   Paper,
-//   Typography,
-//   LinearProgress,
-//   ToggleButton,
-//   ToggleButtonGroup,
-// } from '@mui/material';
-// import { appSettings } from '../../appSettings';
 
 const HealthCheck = () => {
     const fetchData = async () => {
@@ -25,8 +17,7 @@ const HealthCheck = () => {
 
   return (
     <div>
-        <h1>HELLO</h1>
-        <button onClick={fetchData} >BUTTON</button>
+        <button onClick={fetchData} >HEALTH CHECK</button>
     </div>
   );
 };
